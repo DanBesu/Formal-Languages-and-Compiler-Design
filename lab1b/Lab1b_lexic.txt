@@ -1,0 +1,17 @@
+Alphabet:
+	upper and lower case letters of the English Alphabet (A - Z, a - z)
+	decimal digits (0 - 9)
+	
+Lexic:
+	Special symbols, representing:
+		- operators: + - * / < > = >= =< “
+		- separators {} [] () ; space newline ,
+		- reserved words: ridicaNumar, cuvant, parere, baga, arata, saZicemCa, dacaNu, arFi, nuArFi, seImparteLa, pleaca, deLa, panaLa, gata, adevarat, fals
+		-identifier: {letter|digit}
+		- leter = “A” | “B” | … | “Z” | “a” | “b” | … | “z”
+ 		- digit = “0” | “1” | … | “9”
+		- not_zero_digit = “1” | “2” | … | “9”
+               - nr_value = (“+” | “-”) not_zero_digit{digit}
+		- string_value = “ “ “(letter | digit) {letter | digit | “ ”} ” “ “
+		- array_value = “[“ nr_value {“,” nr_value} “]”
+		- boolean_value = adevarat | fals

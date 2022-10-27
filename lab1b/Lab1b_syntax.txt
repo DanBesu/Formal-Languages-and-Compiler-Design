@@ -1,0 +1,13 @@
+program ::= {statement}
+statement ::= {decl_stmt | assign_stmt | if_stmt | for_stmt | print stmt}
+decl_stmt ::= type identifier  (expression | const | arr_value) 
+assign_stmt ::= identifier “=“ (expression | const | arr_value)
+if_stmt ::= “saZicemCa” “(“ condition ”)” “{“ statement “}”  “dacaNu” “{“ statement "}"
+for_stmt ::= “pleaca” “(“ type indentifier “deLa” (identifier | nr_value) “,” “panaLa” (identifier | nr_value) “,” nr_value “)” “{“ statement "}"
+print_stmt ::= “arata” (identifier | const) 
+
+type := ridicaNumar | parere | cuvant
+expression ::= expression "+" term | expression "-" term | term
+term ::= term "*" factor | term "/" factor | factor
+factor ::= "(" expression ")" | identifier | nr_value
+const ::= str_value | nr_value | boolean_value
