@@ -1,0 +1,19 @@
+P1 Min of two numbers 
+ridicaNumar a, b baga(a, b) 
+saZicemCa(a < b) arata a 
+dacaNu arata b 
+P2 Number is prime 
+ridicaNumar a baga(a); parere estePrim = adevarat 
+saZicemCa(a arFi 0 sau a arFi 1) estePrim = fals 
+roteste( ridicaNumar i deLa 2, panaLa a/2, 1){ saZicemCa(a seImparteLa i){ 
+estePrim = fals 
+gata } 
+} saZicemCa(estePrim ariFi adevarat) 
+arata adevarat dacaNu 
+arata fals P3 Compute Sum of N numbers ridicaNumar n, sum=0, a roteste(ridicaNumar i deLa 0 panaLa n-1, 1){ 
+baga(a) 
+sum = sum + a } 
+arata a P1err ridicaNumar n, sum=0, a 
+rotest ridicaNumar i deL 0 panaLa n-1, 1{ baga(a) 
+sum = sum + a } 
+arata a 
