@@ -1,0 +1,8 @@
+ridicaNumar(a, b)
+baga(a, b)
+
+saZicemCa(a < b){
+    arata a
+} dacaNu {
+    arata b
+}
