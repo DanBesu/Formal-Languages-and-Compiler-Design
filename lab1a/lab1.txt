@@ -1,0 +1,67 @@
+
+P1
+
+Min of two numbers
+
+ridicaNumar a
+ridicaNumar b
+baga(a, b)
+
+saZicemCa(a < b){
+	arata(a)
+}
+dacaNu{
+	arata(b)
+}
+
+P2
+
+Number is prime
+
+ridicaNumar a
+baga(a)
+parere estePrim = adevarat
+
+saZicemCa(a arFi 0 sau a arFi 1){
+	estePrim = fals
+}
+
+
+pleacă( ridicaNumar i deLa 2, panaLa a, 1){
+	saZicemCa(a seImparteLa i){
+		estePrim = fals
+		gata
+	}
+}
+saZicemCa(estePrim ariFi adevarat){
+	arata adevarat
+}
+dacaNu{
+	arata fals
+}
+
+P3 Compute Sum of N numbers
+
+ridicaNumar n
+ridicaNumar sum
+ridicaNumar a
+
+sum=0
+
+pleaca(ridicaNumar i deLa 0 panaLa n-1, 1){
+	baga(a)
+	sum = sum + a
+}
+
+arata(a)
+
+P1err
+
+ridicaNumar n, sum=0, a
+
+pleac ridicaNumar i deL 0 panaLa n-1, 1{
+	baga(a)
+	sum = sum + a
+}
+
+arata a
